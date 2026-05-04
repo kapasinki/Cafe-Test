@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arôme Caffee</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+    <div class="logo">
+        Arôme Caffee
+    </div>
+    <nav>
+        <ul class="nav-links">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="page1.html">Меню</a></li>
+        <li><a href="page3.html">Галерея</a></li>
+        <li><a href="page2.html">Бронювання</a></li>
+      </ul>
+    </nav>
+</header>
+<main class="booking-page">
+    <div class="booking-card">
+        <h1 class="booking-title">
+            Забронювати столик
+        </h1>
+        <p class="booking-subtitle">
+            Зарезервуйте ідеальний час!
+        </p>
+        <form class="booking-form">
+        <label for="name">Ваше повне ім'я</label>
+        <input type="text" id="name" name="name">
+
+        <div class="row">
+          <div class="field">
+            <label for="date">Дата бронювання</label>
+            <input type="text" id="date" name="date">
+          </div>
+
+          <div class="field">
+            <label for="time">Бажаний час</label>
+            <input type="text" id="time" name="time">
+          </div>
+        </div>
+
+        <label for="guests">Кількість гостей</label>
+        <div class="guests-box">
+          <span class="guest-btn">−</span>
+          <input type="text" id="guests" name="guests" value="2">
+          <span class="guest-btn">+</span>
+        </div>
+
+        <label class="checkbox-line">
+          <input type="checkbox">
+          <span>Я згоден з правилами та умовами бронювання</span>
+        </label>
+
+        <button type="submit" class="submit-btn">✓ Підтвердити бронювання</button>
+      </form>
+    </div>
+</main>
+<footer>
+Arôme Caffee
+</footer>
+</body>
+</html>
